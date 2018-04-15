@@ -1,0 +1,29 @@
+/**
+ * 这个文件是手打滴，主要是熟悉一下sass的语法，然后在过一遍关于grid的全部文件
+ */
+
+ @at-root {
+   @-ms-viewport { width: device-width; }
+ }
+
+ html {
+   box-sizing: border-box;
+   -ms-overflow-style: scrollbar;
+ }
+
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+
+ @import "functions";
+ @import "variables";
+
+ @import "mixins/breakpoints";
+ @import "mixins/grid-framework";
+ @import "mixins/grid";
+
+ @import "grid";
+ @import "utilities/display";
+ @import "utilities/flex";
